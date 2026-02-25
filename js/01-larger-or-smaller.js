@@ -1,5 +1,5 @@
-let firstInput = prompt("Please enter a number:")
-let secondInput = prompt("Please enter a number:")
+let firstInput = prompt("Enter a number:")
+let secondInput = prompt("Enter a number:")
 
 let firstNumber = parseFloat(firstInput)
 let secondNumber = parseFloat(secondInput)
@@ -11,3 +11,4 @@ if (firstNumber > secondNumber) {
 } else {
     window.console.log("Both numbers are equal")
 }
+
