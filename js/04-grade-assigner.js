@@ -1,7 +1,7 @@
 let userGrade = prompt("Please type in a number between 1 and 100")
 
 let grade = parseFloat(userGrade)
-if (grade < 1 || grade > 100) {
+if (grade > 100 || grade < 1) {
     alert("Only numbers between 1 and 100 are accepted")
 } else {
     if (grade < 60) {
@@ -16,3 +16,4 @@ if (grade < 1 || grade > 100) {
         alert("You received an A")
     }
 }
+
