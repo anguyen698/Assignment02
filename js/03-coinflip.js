@@ -1,5 +1,7 @@
 // heads IF x < 0.5
 // tails IF x >= 0.5
+// Math.random() generates a number between [0, 1)
+// Math.round() rounds a number to the nearest integer
 let coinFlip = Math.round(Math.random())
 
 let choice = prompt("Heads or Tails").toLowerCase()
@@ -13,3 +15,4 @@ if (choice === "heads" && coinFlip === 1) {
 } else if (choice === "tails" && coinFlip === 0) {
     alert("The flip was tails and you chose tails...you win!")
 }
+
